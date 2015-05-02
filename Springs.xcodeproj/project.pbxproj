@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28B64FE41AF4BA8500C04EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B64FE31AF4BA8500C04EF5 /* main.m */; };
+		28B64FE71AF4BA8500C04EF5 /* SPRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B64FE61AF4BA8500C04EF5 /* SPRAppDelegate.m */; };
+		28B64FF21AF4BA8500C04EF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B64FF11AF4BA8500C04EF5 /* Images.xcassets */; };
+		28B64FF51AF4BA8500C04EF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B64FF31AF4BA8500C04EF5 /* LaunchScreen.xib */; };
+		28B6500C1AF4BB8100C04EF5 /* SPRBaseSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B6500B1AF4BB8100C04EF5 /* SPRBaseSpringViewController.m */; };
+		28B6500F1AF4BB9400C04EF5 /* SPRUIKitSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B6500E1AF4BB9400C04EF5 /* SPRUIKitSpringViewController.m */; };
+		28B650121AF4BB9F00C04EF5 /* SPRRBBSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B650111AF4BB9F00C04EF5 /* SPRRBBSpringViewController.m */; };
+		28B650151AF4BBA700C04EF5 /* SPRPOPSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B650141AF4BBA700C04EF5 /* SPRPOPSpringViewController.m */; };
+		28B650181AF4BBB000C04EF5 /* SPRJNWSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B650171AF4BBB000C04EF5 /* SPRJNWSpringViewController.m */; };
+		5D5023E0707F0A23A2576375 /* libPods-Springs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1F712290191175AAB1AA22 /* libPods-Springs.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28B64FDE1AF4BA8500C04EF5 /* Springs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Springs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B64FE21AF4BA8500C04EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B64FE31AF4BA8500C04EF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28B64FE51AF4BA8500C04EF5 /* SPRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPRAppDelegate.h; sourceTree = "<group>"; };
+		28B64FE61AF4BA8500C04EF5 /* SPRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPRAppDelegate.m; sourceTree = "<group>"; };
+		28B64FF11AF4BA8500C04EF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28B64FF41AF4BA8500C04EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		28B6500A1AF4BB8100C04EF5 /* SPRBaseSpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRBaseSpringViewController.h; sourceTree = "<group>"; };
+		28B6500B1AF4BB8100C04EF5 /* SPRBaseSpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRBaseSpringViewController.m; sourceTree = "<group>"; };
+		28B6500D1AF4BB9400C04EF5 /* SPRUIKitSpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRUIKitSpringViewController.h; sourceTree = "<group>"; };
+		28B6500E1AF4BB9400C04EF5 /* SPRUIKitSpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRUIKitSpringViewController.m; sourceTree = "<group>"; };
+		28B650101AF4BB9F00C04EF5 /* SPRRBBSpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRRBBSpringViewController.h; sourceTree = "<group>"; };
+		28B650111AF4BB9F00C04EF5 /* SPRRBBSpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRRBBSpringViewController.m; sourceTree = "<group>"; };
+		28B650131AF4BBA700C04EF5 /* SPRPOPSpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRPOPSpringViewController.h; sourceTree = "<group>"; };
+		28B650141AF4BBA700C04EF5 /* SPRPOPSpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRPOPSpringViewController.m; sourceTree = "<group>"; };
+		28B650161AF4BBB000C04EF5 /* SPRJNWSpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPRJNWSpringViewController.h; sourceTree = "<group>"; };
+		28B650171AF4BBB000C04EF5 /* SPRJNWSpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPRJNWSpringViewController.m; sourceTree = "<group>"; };
+		6B1F712290191175AAB1AA22 /* libPods-Springs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Springs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DCB664FE09C98433943FFA /* Pods-Springs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Springs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Springs/Pods-Springs.debug.xcconfig"; sourceTree = "<group>"; };
+		D17C2DAEB0587BE7FF4EE773 /* Pods-Springs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Springs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Springs/Pods-Springs.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28B64FDB1AF4BA8500C04EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5023E0707F0A23A2576375 /* libPods-Springs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28B64FD51AF4BA8500C04EF5 = {
+			isa = PBXGroup;
+			children = (
+				28B64FE01AF4BA8500C04EF5 /* Springs */,
+				28B64FDF1AF4BA8500C04EF5 /* Products */,
+				9FADE28F5D9EF7305C14C0CD /* Pods */,
+				9130E62D3AA1040765038612 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28B64FDF1AF4BA8500C04EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28B64FDE1AF4BA8500C04EF5 /* Springs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28B64FE01AF4BA8500C04EF5 /* Springs */ = {
+			isa = PBXGroup;
+			children = (
+				28B64FE51AF4BA8500C04EF5 /* SPRAppDelegate.h */,
+				28B64FE61AF4BA8500C04EF5 /* SPRAppDelegate.m */,
+				28B6500A1AF4BB8100C04EF5 /* SPRBaseSpringViewController.h */,
+				28B6500B1AF4BB8100C04EF5 /* SPRBaseSpringViewController.m */,
+				28B6500D1AF4BB9400C04EF5 /* SPRUIKitSpringViewController.h */,
+				28B6500E1AF4BB9400C04EF5 /* SPRUIKitSpringViewController.m */,
+				28B650101AF4BB9F00C04EF5 /* SPRRBBSpringViewController.h */,
+				28B650111AF4BB9F00C04EF5 /* SPRRBBSpringViewController.m */,
+				28B650131AF4BBA700C04EF5 /* SPRPOPSpringViewController.h */,
+				28B650141AF4BBA700C04EF5 /* SPRPOPSpringViewController.m */,
+				28B650161AF4BBB000C04EF5 /* SPRJNWSpringViewController.h */,
+				28B650171AF4BBB000C04EF5 /* SPRJNWSpringViewController.m */,
+				28B64FF11AF4BA8500C04EF5 /* Images.xcassets */,
+				28B64FF31AF4BA8500C04EF5 /* LaunchScreen.xib */,
+				28B64FE11AF4BA8500C04EF5 /* Supporting Files */,
+			);
+			path = Springs;
+			sourceTree = "<group>";
+		};
+		28B64FE11AF4BA8500C04EF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28B64FE21AF4BA8500C04EF5 /* Info.plist */,
+				28B64FE31AF4BA8500C04EF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9130E62D3AA1040765038612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B1F712290191175AAB1AA22 /* libPods-Springs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FADE28F5D9EF7305C14C0CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78DCB664FE09C98433943FFA /* Pods-Springs.debug.xcconfig */,
+				D17C2DAEB0587BE7FF4EE773 /* Pods-Springs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28B64FDD1AF4BA8500C04EF5 /* Springs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B650041AF4BA8500C04EF5 /* Build configuration list for PBXNativeTarget "Springs" */;
+			buildPhases = (
+				98E63FF8C292263F3BF48F1D /* Check Pods Manifest.lock */,
+				28B64FDA1AF4BA8500C04EF5 /* Sources */,
+				28B64FDB1AF4BA8500C04EF5 /* Frameworks */,
+				28B64FDC1AF4BA8500C04EF5 /* Resources */,
+				03EDBE858CC20FB1AE1C80FC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Springs;
+			productName = Springs;
+			productReference = 28B64FDE1AF4BA8500C04EF5 /* Springs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28B64FD61AF4BA8500C04EF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPR;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = shnhrrsn;
+				TargetAttributes = {
+					28B64FDD1AF4BA8500C04EF5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 28B64FD91AF4BA8500C04EF5 /* Build configuration list for PBXProject "Springs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28B64FD51AF4BA8500C04EF5;
+			productRefGroup = 28B64FDF1AF4BA8500C04EF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28B64FDD1AF4BA8500C04EF5 /* Springs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28B64FDC1AF4BA8500C04EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B64FF51AF4BA8500C04EF5 /* LaunchScreen.xib in Resources */,
+				28B64FF21AF4BA8500C04EF5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03EDBE858CC20FB1AE1C80FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Springs/Pods-Springs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98E63FF8C292263F3BF48F1D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B64FDA1AF4BA8500C04EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B650121AF4BB9F00C04EF5 /* SPRRBBSpringViewController.m in Sources */,
+				28B64FE71AF4BA8500C04EF5 /* SPRAppDelegate.m in Sources */,
+				28B6500C1AF4BB8100C04EF5 /* SPRBaseSpringViewController.m in Sources */,
+				28B6500F1AF4BB9400C04EF5 /* SPRUIKitSpringViewController.m in Sources */,
+				28B64FE41AF4BA8500C04EF5 /* main.m in Sources */,
+				28B650151AF4BBA700C04EF5 /* SPRPOPSpringViewController.m in Sources */,
+				28B650181AF4BBB000C04EF5 /* SPRJNWSpringViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28B64FF31AF4BA8500C04EF5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B64FF41AF4BA8500C04EF5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28B650021AF4BA8500C04EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28B650031AF4BA8500C04EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28B650051AF4BA8500C04EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78DCB664FE09C98433943FFA /* Pods-Springs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Springs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28B650061AF4BA8500C04EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D17C2DAEB0587BE7FF4EE773 /* Pods-Springs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Springs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28B64FD91AF4BA8500C04EF5 /* Build configuration list for PBXProject "Springs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B650021AF4BA8500C04EF5 /* Debug */,
+				28B650031AF4BA8500C04EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B650041AF4BA8500C04EF5 /* Build configuration list for PBXNativeTarget "Springs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B650051AF4BA8500C04EF5 /* Debug */,
+				28B650061AF4BA8500C04EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28B64FD61AF4BA8500C04EF5 /* Project object */;
+}

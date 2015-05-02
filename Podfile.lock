@@ -1,0 +1,19 @@
+PODS:
+  - JNWSpringAnimation (0.5)
+  - pop (1.0.7)
+  - RBBAnimation (0.4.0)
+  - SHNGeometryHelper (1.0.0)
+
+DEPENDENCIES:
+  - JNWSpringAnimation
+  - pop
+  - RBBAnimation
+  - SHNGeometryHelper
+
+SPEC CHECKSUMS:
+  JNWSpringAnimation: 1ad895dfddf372e9b1318ff4d11493b157fa1f86
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  RBBAnimation: 4b2d66f6d993febce63cd564da934985313b9c59
+  SHNGeometryHelper: 6bc3335eaf2bc085e3162296b95620553070dd55
+
+COCOAPODS: 0.36.3
